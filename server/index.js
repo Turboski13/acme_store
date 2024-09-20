@@ -36,8 +36,6 @@ app.post('/api/login', async (req, res) => {
 })
 
 
-
-
 app.get('/api/product', async(req, res, next)=> {
     try {
       res.send(await fetchProducts());
